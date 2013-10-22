@@ -8,8 +8,8 @@ INC_PR = "r0"
 
 GNOME_COMPRESS_TYPE = "xz"
 
-SRC_URI[archive.md5sum] = "0c968704be003d2f6eab29388c41664e"
-SRC_URI[archive.sha256sum] = "cd30facee5ad6cd0fafc5337bbf7c06a0bff3936f9ff2ae31519b301efcc9288"
+SRC_URI[archive.md5sum] = "7ca2acfa4dffd94b95f4b8713a346607"
+SRC_URI[archive.sha256sum] = "417a15e53fc20c2e1a1de5ea5903430b0ac2e98178d2fcbcfc8fba3082e801ea"
 SRC_URI += " \
     file://0001-Revert-Respect-UDISKS_AUTOMOUNT_HINT-available-in-re.patch \
     file://0002-Adapt-to-GLib-2.31-deprecations-and-thread-API-chang.patch \
